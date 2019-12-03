@@ -56,6 +56,11 @@ body{
   margin: 0 auto;
 }
 
+a.button_green{
+  background-color: #1ABC9C;
+  border: none;
+}
+
 .star{
   padding: 20px 0;
 }
@@ -74,7 +79,7 @@ body{
 /* header */
 .navbar_bootstrap{
   background-color: #2C3E50;
-  border-color: transparent;
+  border: none;
 }
 
 h2.nav_title{
@@ -120,7 +125,7 @@ h2.nav_title{
 
 /* portfolio */
 .box_portfolio{
-  padding-bottom: 10px;
+  padding-bottom: 25px;
 }
 
 /* about */
