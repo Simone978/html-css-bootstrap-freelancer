@@ -47,6 +47,14 @@ body{
   position: absolute;
 }
 
+.width_300{
+  width: 300px;
+}
+
+.margin_0{
+  margin: 0 auto;
+}
+
 .star hr{
   display: inline-block;
   border: 2px solid white;
@@ -54,7 +62,7 @@ body{
   width: 60px;
 }
 .star .star_icon{
-  right: 47%;
+  right: 44%;
   font-size: 30px;
 }
 
