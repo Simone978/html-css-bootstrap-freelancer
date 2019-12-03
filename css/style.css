@@ -1,0 +1,41 @@
+
+.red{
+  background-color: red;
+  height: 100px;
+}
+
+.blue{
+  background-color: blue;
+  height: 100px;
+}
+
+.line_height{
+  line-height: 100px;
+}
+
+.inline_block{
+  display: inline-block;
+}
+
+.relative{
+  position: relative;
+}
+
+.height_center{
+  top: 50%;
+  transform:translateY(-50%);
+}
+
+.absolute{
+  position: absolute;
+}
+
+h2.nav_title{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav_menu li a:not(.btn){
+  font-size: 20px;
+  color: white;
+}
