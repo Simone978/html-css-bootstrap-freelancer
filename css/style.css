@@ -2,6 +2,7 @@
 /* Generali */
 body{
   font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
 }
 
 /* utility */
@@ -55,6 +56,9 @@ body{
   margin: 0 auto;
 }
 
+.star{
+  padding: 20px 0;
+}
 .star hr{
   display: inline-block;
   border: 2px solid white;
@@ -63,19 +67,26 @@ body{
 }
 .star .star_icon{
   right: 44%;
-  font-size: 30px;
+  top: -6px;
+  font-size: 3em;
 }
 
 /* header */
+.navbar_bootstrap{
+  background-color: #2C3E50;
+  border-color: transparent;
+}
 
 h2.nav_title{
   display: inline-block;
   vertical-align: middle;
+  font-size: 2.8em;
 }
 
 .nav_menu li a:not(.btn){
-  font-size: 20px;
+  font-size: 1.5em;
   color: white;
+  margin-right: 20px;
 }
 
 /* jumbotron */
@@ -89,6 +100,12 @@ h2.nav_title{
   transform: translate(-50%, -50%);
   text-align: center;
 }
+.jumbo_tron_container h2{
+  font-size: 2.3em;
+}
+.jumbo_title{
+  font-size: 6.5em;
+}
 
 .start_bootstrap{
   height: 750px;
@@ -96,8 +113,9 @@ h2.nav_title{
 }
 
 .img_jumbo{
-  height: 250px;
   display: inline-block;
+  width: 250px;
+  padding-bottom: 20px;
 }
 
 /* portfolio */
