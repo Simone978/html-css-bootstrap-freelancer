@@ -60,6 +60,10 @@ a.button_green{
   background-color: #1ABC9C;
   border: none;
 }
+a.button_green:hover{
+  background-color: #148f77;
+  color: white;
+}
 
 .star{
   padding: 20px 0;
@@ -92,6 +96,12 @@ h2.nav_title{
   font-size: 1.5em;
   color: white;
   margin-right: 20px;
+}
+
+@media screen and (max-width:750px) {
+  h2.nav_title{
+    font-size: 2em;
+  }
 }
 
 /* jumbotron */
