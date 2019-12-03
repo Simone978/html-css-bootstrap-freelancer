@@ -1,4 +1,19 @@
 
+/* Generali */
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* utility */
+
+.bold{
+  font-weight: bold;
+}
+
+.white{
+  color: white;
+}
+
 .red{
   background-color: red;
 }
@@ -32,6 +47,19 @@
   position: absolute;
 }
 
+.star hr{
+  display: inline-block;
+  border: 2px solid white;
+  margin: 0 30px;
+  width: 60px;
+}
+.star .star_icon{
+  right: 47%;
+  font-size: 30px;
+}
+
+/* header */
+
 h2.nav_title{
   display: inline-block;
   vertical-align: middle;
@@ -42,25 +70,34 @@ h2.nav_title{
   color: white;
 }
 
+/* jumbotron */
 .jumbo_tron{
-  text-align: center;
+  height: 650px;
   margin-top: 100px;
+}
+.jumbo_tron_container{
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .start_bootstrap{
   height: 750px;
-  background-color: green;
+  background-color: #1ABC9C;
 }
 
 .img_jumbo{
-  height: 200px;
+  height: 250px;
   display: inline-block;
 }
 
+/* portfolio */
 .box_portfolio{
   padding-bottom: 10px;
 }
 
+/* about */
 .about{
   margin-top: 40px;
  background: lightblue;
@@ -70,6 +107,7 @@ h2.nav_title{
   text-align: center;
 }
 
+/* contact */
 #contact{
   margin-bottom: 70px;
 }
@@ -84,6 +122,7 @@ h2.nav_title{
   border-bottom: 1px solid grey;
 }
 
+/* footer */
 footer{
   height: 300px;
   background-color: purple;
