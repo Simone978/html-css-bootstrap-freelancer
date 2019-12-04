@@ -166,13 +166,14 @@ h2.nav_title{
   height: 650px;
 }
 .jumbo_tron_container{
-  height: 500px;
+  height: 100%;
   width: 100%;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   background-color: #1ABC9C;
+  padding: 100px 0;
 }
 .jumbo_tron_container h2{
   font-size: 2.3em;
@@ -181,7 +182,13 @@ h2.nav_title{
   font-size: 6.5em;
 }
 
-.start_bootstrap{
+@media screen and (max-width:750px) {
+  .jumbo_tron_container h2{
+    font-size: 1.8em;
+  }
+  .jumbo_title{
+    font-size: 4.0em;
+  }
 
 }
 
