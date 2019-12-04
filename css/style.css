@@ -9,15 +9,21 @@ body{
 }
 
 
-/* utility */
+/* Typo */
 
-.padding_top_bottom{
-  padding: 60px 0;
+.font_size_paragraph{
+  font-size: 1.9em;
 }
 
 .bold{
   font-weight: bold;
 }
+
+.section_title{
+  font-size: 5em;
+}
+
+/* colors */
 
 .white{
   color: white;
@@ -39,12 +45,44 @@ body{
   background-color: #1ABC9C;
 }
 
+a.button_green{
+  background-color: #1ABC9C;
+  border: none;
+}
+a.button_green:hover{
+  background-color: #148f77;
+  color: white;
+}
+
+.hr_white{
+  border: 2px solid white;
+}
+.hr_bootstrap_blue{
+  border: 2px solid #2C3E50;
+}
+
+/* editing */
+
+.btn_padding{
+  margin-top: 50px;
+  padding: 20px 30px;
+}
+
+.padding_top_bottom{
+  padding: 60px 0;
+}
+
 .height-100{
   height: 100px;
 }
 
 .line_height{
   line-height: 100px;
+}
+
+.height_center{
+  top: 50%;
+  transform:translateY(-50%);
 }
 
 .inline_block{
@@ -59,36 +97,15 @@ body{
   position: absolute;
 }
 
-.height_center{
-  top: 50%;
-  transform:translateY(-50%);
+.margin_0{
+  margin: 0 auto;
 }
 
 .width_300{
   width: 300px;
 }
 
-.margin_0{
-  margin: 0 auto;
-}
-
-a.button_green{
-  background-color: #1ABC9C;
-  border: none;
-}
-a.button_green:hover{
-  background-color: #148f77;
-  color: white;
-}
-
-.btn_padding{
-  margin-top: 50px;
-  padding: 20px 30px;
-}
-
-.font_size_paragraph{
-  font-size: 1.9em;
-}
+/* Utility */
 
 .star{
   padding: 20px 0 40px;
@@ -102,21 +119,6 @@ a.button_green:hover{
   right: 44%;
   top: -6px;
   font-size: 3em;
-}
-
-.hr_white{
-  border: 2px solid white;
-}
-.hr_bootstrap_blue{
-  border: 2px solid #2C3E50;
-}
-
-.section_title{
-  font-size: 5em;
-}
-
-.container_wrap{
-  margin: 0 auto;
 }
 
 /* header */
@@ -164,7 +166,8 @@ h2.nav_title{
   height: 650px;
 }
 .jumbo_tron_container{
-  height: 650px;
+  height: 500px;
+  width: 100%;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
