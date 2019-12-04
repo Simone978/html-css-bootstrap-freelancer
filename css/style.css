@@ -71,6 +71,11 @@ a.button_green:hover{
   color: white;
 }
 
+.btn_padding{
+  margin-top: 50px;
+  padding: 20px 30px;
+}
+
 .font_size_paragraph{
   font-size: 1.9em;
 }
@@ -205,8 +210,6 @@ h2.nav_title{
   background-color: transparent;
   border: 2px solid white;
   border-radius: 10px;
-  margin-top: 50px;
-  padding: 20px 30px;
 }
 .btn_about:hover{
   background-color: white;
@@ -220,15 +223,26 @@ h2.nav_title{
 #contact{
   margin-bottom: 70px;
 }
+.contact_form li h3{
+  line-height: 80px;
+}
 
 .contact_form li{
   width: 100%;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid lightgrey;
 }
 .contact_form li:last-child{
   width: 100%;
   height: 200px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid lightgrey;
+}
+
+.btn_contact{
+  background
+}
+.btn_contact:hover{
+  background-color:#159a80;
+  color: white;
 }
 
 /* footer */
