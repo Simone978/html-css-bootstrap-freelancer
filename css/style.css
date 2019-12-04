@@ -1,5 +1,7 @@
 
 /* Generali */
+
+
 body{
   font-family: 'Montserrat', sans-serif;
   font-size: 10px;
@@ -155,14 +157,19 @@ h2.nav_title{
 }
 
 /* jumbotron */
+#jumbotron{
+  background-color: #1ABC9C;
+}
 .jumbo_tron{
   height: 650px;
 }
 .jumbo_tron_container{
+  height: 650px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  background-color: #1ABC9C;
 }
 .jumbo_tron_container h2{
   font-size: 2.3em;
@@ -172,8 +179,7 @@ h2.nav_title{
 }
 
 .start_bootstrap{
-  height: 750px;
-  background-color: #1ABC9C;
+
 }
 
 .img_jumbo{
@@ -257,6 +263,7 @@ h2.nav_title{
 
 /* footer */
 
+
 .foot_title{
   font-size: 2.5em;
 }
@@ -273,7 +280,8 @@ h2.nav_title{
 .footer_bottom{
   background-color: #1A252F;
   width: 100%;
-  height: 60px;
+  height: 70px;
+
 }
 .footer_bottom h6{
   line-height: 60px;
