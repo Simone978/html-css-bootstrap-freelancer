@@ -13,17 +13,15 @@
 
     <header>
       <nav class="navbar_bootstrap navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid height-100">
+        <div class="container-wrap height-100">
           <div class="container height-100">
             <div class="row line_height">
               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-9">
-                <h2 class="nav_title text-uppercase bold white">Start bootstrap</h2>
+                <h2 class="nav_title text-uppercase bold white"><a href="">Start bootstrap</a></h2>
               </div>
-              <div class="col-md-6 col-sm-6 col-xs-3">
-                <nav class="nav_menu list-unstyled list-inline text-right bold white">
-                  <li>
-                    <a class="btn btn-default hidden-lg hidden-md button_green white bold" href="#" role="button">MENU <i class="fas fa-bars"></i></a>
-                  </li>
+              <div class="col-md-6 col-sm-6 col-xs-3 text-right">
+                <a class="btn hidden-lg hidden-md button_green white bold" href="#" role="button">MENU <i class="fas fa-bars"></i></a>
+                <nav class="nav_menu list-unstyled list-inline bold white">
                   <li class="hidden-sm hidden-xs text-uppercase"><a href="">Portfolio</a></li>
                   <li class="hidden-sm hidden-xs text-uppercase"><a href="">About</a></li>
                   <li class="hidden-sm hidden-xs text-uppercase"><a href="">Contact</a></li>
@@ -33,11 +31,8 @@
           </div>
         </div>
       </nav>
-    </header>
-
-    <main>
       <section id="jumbotron">
-        <div class="container-fluid start_bootstrap">
+        <div class="container-wrap start_bootstrap">
           <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <div class="jumbo_tron relative">
@@ -58,9 +53,11 @@
           </div>
         </div>
       </section>
+    </header>
 
+    <main>
       <section id="portfolio" class="text-center">
-        <h2>Portfolio</h2>
+        <h2 class="section_title text-uppercase blue_bootstrap bold">Portfolio</h2>
         <div class="star">
           <div class="star_container relative width_300 margin_0">
             <hr class="hr_bootstrap_blue">
@@ -72,32 +69,38 @@
           <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 box_portfolio">
               <div class="portfolio_content">
+                <div class="portfolio_layover"></div>
                 <img class="portfolio_img img-responsive img-rounded" src="img/cabin.png" alt="">
               </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 box_portfolio">
               <div class="portfolio_content">
-                <img class="portfolio_img img-responsive img-rounded" src="img/cabin.png" alt="">
+                <div class="portfolio_layover"></div>
+                <img class="portfolio_img img-responsive img-rounded" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cake.png" alt="">
             </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 box_portfolio">
               <div class="portfolio_content">
-                <img class="portfolio_img img-responsive img-rounded" src="img/cabin.png" alt="">
+                <div class="portfolio_layover"></div>
+                <img class="portfolio_img img-responsive img-rounded" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/circus.png" alt="">
             </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 box_portfolio">
               <div class="portfolio_content">
-                <img class="portfolio_img img-responsive img-rounded" src="img/cabin.png" alt="">
+                <div class="portfolio_layover"></div>
+                <img class="portfolio_img img-responsive img-rounded" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/game.png" alt="">
               </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 box_portfolio">
               <div class="portfolio_content">
-                <img class="portfolio_img img-responsive img-rounded" src="img/cabin.png" alt="">
+                <div class="portfolio_layover"></div>
+                <img class="portfolio_img img-responsive img-rounded" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/safe.png" alt="">
               </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 box_portfolio">
               <div class="portfolio_content">
-                <img class="portfolio_img img-responsive img-rounded" src="img/cabin.png" alt="">
+                <div class="portfolio_layover"></div>
+                <img class="portfolio_img img-responsive img-rounded" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/submarine.png" alt="">
             </div>
           </div>
           </div>
@@ -143,7 +146,7 @@
     </main>
 
     <footer>
-      <div class="container-fluid">
+      <div class="container-wrap">
         <div class="container">
           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <h2 class="text-center">LOCATION</h2>
